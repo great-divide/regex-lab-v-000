@@ -25,4 +25,6 @@ end
 
 def valid_phone_number?(phone)
   if text.match(/\d{3}\D*\d{3}\D*\d{4}/)
+    return true
+  end
 end
